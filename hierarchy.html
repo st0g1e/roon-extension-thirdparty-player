@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./dist/jstree.min.js"></script>
+  <script src="hierarchy.js"></script>
+  <link rel="stylesheet" href="./dist/themes/default/style.min.css" />
+
+</head>
+
+<body onload="setupZones();">
+  Zones: <select id="zoneList" onchange="updateSelected()"></select>
+  <div id="selectedZone"></div>
+
+  <hr>
+  <div class="container" id="content">
+</body>
+
+</html>
