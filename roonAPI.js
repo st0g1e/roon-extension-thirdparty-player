@@ -77,9 +77,9 @@ const SEEKMAXDIFF = 10;
 const PROCESS_DURATION = 1;
 
 var roon = new RoonApi({
-  extension_id: "st0g1e.roon-db",
-  display_name: "roon-db",
-  display_version: "0.0.1",
+  extension_id: "st0g1e.roon-thirdparty",
+  display_name: "roon-thirdparty",
+  display_version: "1.0.1",
   publisher: "bastian ramelan",
   email: "st0g1e@yahoo.com",
   log_level: "none",

@@ -1,7 +1,7 @@
 {
-  "name": "roon-db",
-  "description": "st0g1e.roon-db",
-  "version": "0.0.1",
+  "name": "roon-thirdparty",
+  "description": "st0g1e.roon-thirdparty",
+  "version": "1.0.1",
   "main": "roonAPI.js",
   "private": true,
   "dependencies": {
