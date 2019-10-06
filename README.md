@@ -5,6 +5,12 @@
 ```
 
 ## Installing/Preparing the library excel document
+* Sqlite3
+  1. Install sqlite3
+  2. add empty sqlite file on the repository:
+     - cd to the Repository
+     - `touch library.sqlite`
+
 * Roon:
   1. Enable search by path: [Roon KB](https://kb.roonlabs.com/FAQ:How_can_I_find_tracks_by_path%3F)
   2. Go to Track View
@@ -36,3 +42,8 @@
 ## Folder Viewing
 * Web Browser
   1. Go to: [hierarchy page](http://localhost:3001/hierarchy.html)
+
+## Warning
+1. Only tested to run on Audirvana version 3.5
+2. Repository only tested on MacOS (core at either local mac or roon Rock)
+3. Ensure that the path on libary.xls is accessible from the extension repository
