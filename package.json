@@ -6,10 +6,13 @@
   "private": true,
   "dependencies": {
     "express": "4.x",
+    "node-osascript": "github:FWeinb/node-osascript",
     "node-roon-api": "github:roonlabs/node-roon-api",
     "node-roon-api-browse": "github:roonlabs/node-roon-api-browse",
-    "node-roon-api-status": "github:roonlabs/node-roon-api-status",
     "node-roon-api-settings": "github:roonlabs/node-roon-api-settings",
-    "node-roon-api-transport": "github:roonlabs/node-roon-api-transport"
+    "node-roon-api-status": "github:roonlabs/node-roon-api-status",
+    "node-roon-api-transport": "github:roonlabs/node-roon-api-transport",
+    "run-applescript": "github:sindresorhus/run-applescript",
+    "sqlite3": "github:mapbox/node-sqlite3"
   }
 }
